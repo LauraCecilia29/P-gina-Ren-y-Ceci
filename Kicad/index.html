@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Práctica 1 | Ibero Puebla</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <div class="container px-5">
+                    <a class="navbar-brand">Menu</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="../">Home</a></li>                    
+                            <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de nosotras</a></li>
+                            <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Seccion TITULO de Portafolio-->
+            <header class="bg-primary py-2 mt-6">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                                <h1 class="display-8 fw-bolder text-white mb-2">Producción electrónica</h1>
+                                <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Seccion TITULO de la Práctica-->
+            <section class="py-3" id="scroll-target">
+                <div class="container px-5 my-2">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Esquemático y diseño de pcb</h1>
+
+                        <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
+                            <img class="img-fluid rounded-circle" width="50px" src="img/Persona.png" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Piña Pena Laura Cecilia</div>
+                                <div class="text-muted">Mecatrónica</div>
+                                <div class="fw-bold">Garzón Morales Renata</div>
+                                <div class="text-muted">Mecatrónica</div>
+                            </div>
+                        <!--Aqui termina etiqueta de alumno-->
+
+                        <div class="text-muted fst-italic mt-2 mb-2">Agosto 2025</div>
+                        <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                  
+                      
+
+                    </header>
+                </div>
+            </section>
+
+            <!-- Seccion de CONTENIDO de la Práctica-->
+            <section>
+                <div class="container px-5">
+                              
+                    <p id="resumen">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
+                        <p class="fs-6 mb-4">Una placa de circuito impreso (PCB, por sus siglas en inglés) es la base de todos los aparatos electrónicos. Se define como un circuito cuyos componentes y conductores están contenidos dentro de una estructura mecánica. En pocas palabras, es una placa con pistas trazadas en su superficie, que sirven para conectar diferentes componentes entre sí. Existen diferentes tipos según su material, tecnologías y aplicación.</p>
+                        
+                         <p class="fs-6 mb-4">El diseño de la PCB se realiza mediante un software especializado. El diseñador del circuito coloca los componentes, las rutas de trazados y las capas según los requisitos, funcionalidad y disponibilidad de espacio. KiCad es justamente uno de los softwares más usados para este fin, pues cubre casi todas las etapas de diseño de una PCB, desde la creación del esquemático hasta la generación de archivos de fabricación.</p>
+                        
+                        <p id="intro">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Pasos -</h2>
+                        <p class="fs-6 mb-4">Para utilizar KiCad seguimos los siguientes pasos:</p>
+                        <p class="fs-6 mb-4">1) Cargar en el programa las librerías proporcionadas por el FAB</p>
+                        <p class="fs-6 mb-4">Para poder instalar las nuevas librerías, seleccionamos la opción “Preferencias” en la parte superior de la ventana. Después, damos click en “Gestionar biblioteca de símbolos” y deslizamos hasta el final donde damos click en el símbolo +, proporcionamos el nombre de “fab” y luego damos click en el símbolo de la carpeta en la segunda columna, seleccionamos el archivo “fab.kicad_sym” que nos proporcionaron y aceptamos.</p>
+                        
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/paso1.jpg" alt="..." /></figure>
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/paso2.png" alt="..." /></figure>
+                        
+                        <p class="fs-6 mb-4">Repetimos el proceso y seleccionamos “Gestionar biblioteca de huellas” en “Preferencias” y agregamos el archivo “fab.pretty”. Finalmente, en “Configurar rutas” seleccionamos el archivo de “kicad-master”. Con eso, estamos listas para comenzar a diseñar.</p>
+                        <p class="fs-6 mb-4">2) Esquemático</p>
+                        <p class="fs-6 mb-4">  Abrimos el “Editor de esquemas” y dando click en la letra “a” de nuestro teclado, se abre una ventana que nos permite buscar el componente que queramos, simplemente lo seleccionamos y colocamos en la hoja. Debemos asegurarnos que aparezca la huella del componente pues será importante para el proceso en el editor de placas.</p>
+
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/paso3.png" alt="..." /></figure>
+                        
+                        <p class="fs-6 mb-4">El modo más básico de conectar componentes es dibujar líneas desde una patita hasta otra. Simplemente se selecciona un cable, se hace click en la terminal, se arrastra hasta la terminal de otro componente y se suelta. Si queremos unir varios cables en un punto, el programa pone un punto de unión para mostrar que de verdad están conectados ahí.</p>
+                        <p class="fs-6 mb-4">En KiCad, cuando dibujas un esquemático, a veces hay tantas líneas de conexión que el dibujo se torna un poco confuso. Para evitar eso, existen las etiquetas de conexión, que son como ponerles nombres a los cables. Si dos o más cables tienen la misma etiqueta, el programa entiende que están conectados, aunque no haya una línea dibujada entre ellos.</p>
+
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/paso4.png" alt="..." /></figure>
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/paso5.png" alt="..." /></figure>
+                        
+                        <p class="fs-6 mb-4">3) Editor de placas</p>
+                        <p class="fs-6 mb-4">Para movernos al editor de placas, damos click en el ícono de una placa verde en la parte superior derecha de la pantalla. Una vez ahí, debemos cargar nuestro esquemático, para esto seleccionamos el ícono que dice “Actualizar placa desde esquema”, esto no solo importará todos los componentes del esquemático a la placa sino que también nos alertará de cualquier error que podamos tener.</p>
+
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/paso6.png" alt="..." /></figure>
+
+                        <p class="fs-6 mb-4">Después de eso, acomodamos los componentes en la placa según las conexiones que haremos. Es necesario tener en mente las herramientas de las que disponemos, pues ellas son las que determinan cosas como el ancho de pista que podemos usar. En este caso, tenemos la Roland monoFab SRM-20 por lo que dejaremos un ancho de pista de 0.4mm. Para hacer esto, seleccionamos la opción de Pista en la esquina superior izquierda y damos click en “Editar tamaños predefinidos”.</p>
+
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/paso7.png" alt="..." /></figure>
+
+                        <p class="fs-6 mb-4">También recibimos la recomendación del profesor de no dejar esquinas con ángulos de 90° en nuestras pistas, esta es una regla clásica de diseño de PCB pues al formar una L perfecta, las señales pueden distorsionarse al cambiar tan abruptamente de dirección.</p>
+                        <p class="fs-6 mb-4">Algunas otras cosas que debemos tomar en cuenta son qué distancia mínima podemos dejar entre pistas, no pueden estar demasiado pegadas porque la electricidad puede saltar y hacer cortos. Debemos evitar hacer “cableados” tan grandes o largos y para eso hay que ubicar de forma lógica los componentes pues eso evita pistas largas y enredos. De igual manera, una buena práctica es dejar los nombres de los componentes legibles para que la PCB sea fácil de revisar y armar.</p>
+                        <p class="fs-6 mb-4">Sabiendo esto, podemos empezar a rutear. Seleccionamos el ícono de cable azul y cualquier terminal de un componente, KiCad nos marcará automáticamente las conexiones que debemos hacer.</p>
+                        <p class="fs-6 mb-4">Una vez que todos los componentes estén conectados, dibujamos el contorno de la pista, lo cual nos permitirá determinar las dimensiones máximas de la placa.</p>
+
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/paso8.png" alt="..." /></figure>
+
+                        <p class="fs-6 mb-4">4) Guardar Archivos</p>
+
+                        <p class="fs-6 mb-4">Finalmente, para obtener los archivos a utilizar, damos click en “Archivo” -> “Salidas de fabricación” y seleccionamos “Gerbers (gbr)”, esto abrirá una ventana que permitirá seleccionar las capas que queramos, en “Formato de trazado” seleccionamos SVG. En nuestro caso, las capas incluidas fueron F.Cu (contorno de la placa), Edge.Cuts (rutas), User.1 (perforaciones) y User.2 (etiquetas).</p>
+
+                        <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/paso9.png" alt="..." /></figure>
+
+                        
+
+            
+        </main>
+
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2025</div></div>
+                    <div class="col-auto">
+                        <a class="link-light small" href="#!">Privacy</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Terms</a>
+                        <span class="text-white mx-1">&middot;</span>
+                        <a class="link-light small" href="#!">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
